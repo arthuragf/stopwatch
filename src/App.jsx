@@ -1,8 +1,6 @@
-import StopWatch from "./components/StopWatch/StopWatch"
+import Stopwatch from "./components/Stopwatch/Stopwatch"
 function App() {
-  return (
-    <StopWatch />
-  )
+  return <Stopwatch />
 }
 
 export default App

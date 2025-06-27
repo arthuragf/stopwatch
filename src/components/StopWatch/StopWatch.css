@@ -10,7 +10,9 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    font: Arial, sans-serif
+    font-family: monospace;
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+    color: hsla(0, 0%, 23%, 0.9);
 }
 
 .app-wrapper {
@@ -35,7 +37,8 @@ body {
     border-radius: 10px;
     min-width: 100px;
     font-weight: bold;
-    font-size: 1.0em;
+    font-size: 1.1em;
+    color: rgb(46, 46, 46);
 }
 
 .start-btn {
